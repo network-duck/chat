@@ -21,4 +21,4 @@ def home():
     
     return render_template("index.html", messages=messages)
 
-app.run()
+app.run(host="0.0.0.0")
